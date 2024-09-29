@@ -29,7 +29,7 @@ char	*ft_strchr(const char *s, int c)
 	if (*ptr == ch)
 		return (ptr);
 	else
-		return (0);
+		return (NULL);
 }
 
 /*int main() {
